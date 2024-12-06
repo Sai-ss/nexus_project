@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Form</title>
+    <script src="script.js"></script>
+
+    
+
+    <style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background-color: #e4bcbc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://www.solidbackgrounds.com/download/2560x1440-blue-abstract-noise-free-website-background-image.jpg);
+    }
+    
+    .container {
+        background-color: #f2e0ed;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 1, 1, 0.1);
+        width: 600px;
+        background-color:opaque;
+        background-image: url(https://tse3.mm.bing.net/th?id=OIP.MgIoW64zMIR5AquZxMwlwQHaEk&pid=Api&P=0&h=180);
+    }
+    
+    h2 {
+        text-align: center;
+        margin : 1% 30px 40px;
+        color: #0c0114;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #333;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+
+    textarea {
+        width: 80%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #641fd4;
+        border-radius: 10px;
+    }
+    
+    input[type="submit"] {
+        width: 20%;
+        background-color: #000a02;
+        border: none;
+        border-radius: 10px;
+        color:white;
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px 10px 10px 10px;
+
+    }
+    
+    input [type="submit"]:hover {
+        background-color: #241bcc;
+    
+
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <h2>USER REGISTRATION FORM</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone No.:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+          
+            <label for="event">EVENT:</label>
+            <select id="event" name="event" required>
+                <option value="">SELECT EVENT</option>
+                <option value="SPORTS">SPORTS</option>
+                <option value="Marathon">Marathons</option>
+                <option value="Startup">Startup</option>
+                <option value="Fair">Fair</option>
+            </select>
+
+            <label>
+            
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+            </label>
+        
+            
+<label>
+            <input type="submit" value="Submit">
+            </label>
+        </form>
+    </div>
+</body>
+</html>
